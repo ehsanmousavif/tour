@@ -28,7 +28,7 @@ const errorMessage=document.querySelector(".error-message")
   setTimeout(function showModal(){
   modal.classList.add("opacity-100","cursor-default")
   root.classList.add("opacity-50","cursor-not-allowed")
-},0)
+},3500)
 function submit(){
   }
   function modalHandler (){

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel=" stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <title>Home!</title>
+</head>
+
+<body class="bg-black box-border snap-x snap-proximity">
+    <!--main start-->
+
+
+    <div class="root max-w-[36rem] min-h-screen left-0 right-0 top-0 flex flrx-col  m-auto overflow-hidden ">
+
+        <!--header start-->
+
+        <div class="fixed max-w-[36rem] z-0 w-full ">
+
+            <img src="../images/travel.jpg" class="aspect-auto opacity-90" />
+
+        </div>
+        <!--navigation-->
+        <div
+            class=" navigation fixed flex   m-auto opacity-0 px-4 py-6 h-auto rounded-e-3xl overflow-hidden  z-50 bg-gray-800 ">
+            <div>
+                <div class="flex items-center ">
+                    <img class="mb-4" src="../icon/home.png" />
+                </div>
+                <img class="mb-4" src="../icon/favorite.png" />
+                <img class="mb-4" src="../icon/call.png" />
+                <img class="" src="../icon/ticket.png" />
+                <img class=" close mt-20" src="../icon/close.png" />
+
+            </div>
+        </div>
+
+        <button class="button-show-navigation fixed m-auto bg-gray-800 z-50 top-12 px-2 py-3 rounded-e-3xl">
+            <img src="../icon/arrow.png
+            " />
+        </button>
+        <!--navigation-end-->
+
+
+        <!--header end-->
+
+        <div
+            class="w-full  bg-gradient-to-r from-[#56a2b4] to-[#f6dc8c]   rounded-t-3xl min-h-screen mt-[49%] relative z-10">
+            <!--text-title-->
+            <div class="mt-6 flex flex-col items-center">
+                <span class="text-2xl tracking-tight font-mono font-bold text-white ">تور های لحظه آخری</span>
+                <!--body-->
+                <div class="w-full mt-6 flex flex-col items-center  relative ">
+                    <img class="w-5/6  h-[20rem] rounded-3xl  "
+                        src="../images/plane.jpg" />
+                        <div class="  w-3/4 text-center bg-gradient-to-r from-gray-600 to-stone-500 text-gray-400 whitespace-nowrap px-8 py-2 rounded-full mt-1 transform 
+
+                        hover:bg-gradient-to-l   from-gray-600 to-stone-500     "> 
+                            <a href="#">
+                            <button>مشاهده تمام تورهای لحظه اخری</button>
+                        </a>
+                        </div>
+
+                </div>
+
+                <!--slider-->
+
+                <!--slider-end-->
+                <!--body-end-->
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--main end-->
+
+    </div>
+</body>
+<script src="home.js"></script>
+
+</html>

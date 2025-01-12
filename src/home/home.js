@@ -34,7 +34,7 @@ function submit(){
   function modalHandler (){
     if(input.value.length === 11){
       modal.classList.remove("opacity-100")
-      root.classList.remove("opacity-50","cursor-not-allowed")
+      root.classList.remove("opacity-30","cursor-not-allowed","blur-sm")
     }else{
     errorMessage.classList.add("opacity-100")
   }

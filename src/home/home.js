@@ -1,21 +1,22 @@
+
 // navigation
-const showNavigation=document.querySelector(".button-show-navigation");
 const navigation=document.querySelector(".navigation");
-const root=document.querySelector(".root")
-const closeButton=document.querySelector(".close-button")
-function showButton(){
-  showNavigation.classList.add("opacity-0");
-  navigation.classList.remove("opacity-0");
+const buttonShowNavigation=document.querySelector(".button-show-navigation ");
+const buttonCloseNavigation=document.querySelector(".close-navigation-button");
+function ShowNavigation(){
   navigation.classList.add("opacity-100");
+  buttonShowNavigation.classList.remove("opacity-100");
+  buttonShowNavigation.classList.add("opacity-0");
+
 }
-function close(){
-  showNavigation.classList.remove(".opacity-0")
-  showNavigation.classList.add(".opacity-100")
-  navigation.classList.remove(".opacity-100")
-  navigation.classList.add(".opacity-0")
+function closeNavigation(){
+  navigation.classList.remove("opacity-100");
+  buttonShowNavigation.classList.add("opacity-100");
+  buttonShowNavigation.classList.remove("opacity-0");
+ 
 }
-showNavigation.addEventListener("click",showButton)
-closeButton.addEventListener("click",close)
+buttonShowNavigation.addEventListener("click",ShowNavigation)
+buttonCloseNavigation.addEventListener("click",closeNavigation)
 // navigation-end
 
 //modal

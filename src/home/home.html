@@ -13,7 +13,7 @@
 <body class="bg-black box-border">
     <!--modal-->
     <div
-        class="  modal flex flex-col items-center justify-between transition duration-300 ease-linear fixed z-[70] h-[28rem] rounded-t-[48px] max-w-[36rem] text-white  bg-[#4a7090] m-auto right-0 left-0 bottom-0 text-center px-10 py-10 opacity-0  ">
+        class="  modal flex flex-col items-center justify-between transition duration-300 ease-linear fixed z-[70] h-[28rem] rounded-t-[48px] max-w-[36rem] text-white  bg-[#4a7090] m-auto right-0 left-0 bottom-0 text-center px-10 py-10 opacity-0 shadow-md  shadow-black/50 ">
         <div class="font-mono flex flex-col gap-4 " dir="rtl">
             <span class="font-extrabold"> برای ورود به اپلیکیشن شماره تلفن خود را به صورت صحیح وارد کرده سپس کد تایید را
                 وارد نمایید
@@ -28,7 +28,8 @@
             <input id="phone"
                 class="input w-2/3 border-gray-700 border-solid bg-[#d8fbf8] border-[2px] rounded-2xl py-2 px-3 text-black "
                 placeholder="09XXXXXXX" type="text" />
-            <span class="error-message  opacity-0 tracking-wider font-extrabold text-red-600">شماره وارد شد صحیح نمی
+            <span class="error-message  opacity-0 tracking-wider font-extrabold text-red-600/25 
+            ">شماره وارد شد صحیح نمی
                 باشد</span>
             <button class="submit-button w-1/2 py-3 rounded-3xl bg-[#131f3e4a] font-extrabold tracking-wide text-white/60"
                 type="submit">تایید</button>
@@ -48,15 +49,15 @@
         </div>
         <!--navigation-->
         <div
-            class="  navigation fixed flex flex-col items-center justify-around gap-6  m-auto opacity-0 px-4 py-6 h-auto rounded-e-3xl overflow-hidden  z-50 bg-blue-500 ">
+            class="  navigation fixed flex flex-col items-center justify-around gap-6  m-auto opacity-0 px-4 py-6 h-auto rounded-e-3xl overflow-hidden    shadow-md  shadow-black/50 z-50 bg-blue-500/80 ">
+            <img class=" rounded-full bg-blue-300 p-2" src="../icon/home.png" />
             <img src="../icon/call.png" />
             <img src="../icon/favorite.png" />
-            <img src="../icon/home.png" />
             <img src="../icon/ticket.png" />
-            <img class="close-navigation-button" src="../icon/close.png" />
+            <img class="close-navigation-button " src="../icon/close.png" />
         </div>
         <button
-            class="button-show-navigation fixed m-auto opacity-100 bg-blue-500 border-white z-50 top-12 px-1 py-3 rounded-e-2xl hover:pl-[8px] ">
+            class="button-show-navigation fixed m-auto opacity-100 bg-blue-500/80 border-white z-50 top-12 shadow-md  shadow-black/50 px-1 py-3 rounded-e-2xl hover:pl-[8px] ">
             <img src="../icon/arrow.png" />
         </button>
         <!--navigation-end-->
@@ -72,8 +73,8 @@
                     </span>
                 </div>
                 <div class="w-full flex flex-col items-center  relative ">
-                    <img class="w-auto h-[18rem] rounded-b-3xl cursor-pointer" src="../images/plane.jpg" />
-                    <div class="   text-center bg-gradient-to-tl  from-sky-600/20 to-black/20   text-white whitespace-nowrap px-8 py-3 rounded-full mt-3 transform 
+                    <img class="w-auto h-[18rem] rounded-b-3xl cursor-pointer shadow-md  shadow-black/50" src="../images/plane.jpg" />
+                    <div class=" text-center bg-gradient-to-tl  from-sky-600/20 to-black/20   text-white whitespace-nowrap px-8 py-3 rounded-full mt-3 transform 
                           ">
                         <a href="#">
                             <button>
@@ -90,7 +91,7 @@
                         </span>
                     </div>
                     <div class="w-full  flex flex-col items-center  relative ">
-                        <img class="w-auto  h-[18rem] rounded-b-3xl cursor-pointer  " src="../images/ticket.jpg" />
+                        <img class="w-auto  h-[18rem] rounded-b-3xl cursor-pointer  shadow-md  shadow-black/50" src="../images/ticket.jpg" />
                         <div class="  text-center bg-gradient-to-tl  from-sky-600/20 
                         to-black/20  text-white whitespace-nowrap px-8 py-3 rounded-full mt-3 transform 
                           ">
@@ -109,7 +110,7 @@
                         <span class="text-xl tracking-tight font-mono font-bold text-white ">درباره ما بخوانید</span>
                     </div>
                     <div class="w-full  flex flex-col items-center  relative ">
-                        <img class="w-auto  h-[18rem] rounded-b-3xl cursor-pointer  " src="../images/about-us.jpg" />
+                        <img class="w-auto  h-[18rem] rounded-b-3xl cursor-pointer shadow-md  shadow-black/50 " src="../images/about-us.jpg" />
                         <div class="  text-center bg-gradient-to-tl  from-sky-600/20 
                         to-black/20   text-white whitespace-nowrap px-8 py-3 rounded-full mt-3 transform 
                           ">
